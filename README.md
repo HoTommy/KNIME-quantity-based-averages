@@ -17,9 +17,9 @@ the Contract data is extended with the quantity of materials, which arise in the
 The difference in price (active row to previous) is calculated.
 
 ## results
-Contract data as processed
-Contract data with quantity weighed price average per year
-Contract data with quantity weighed price average per year for whole Material Base
+### Contract data as processed.
+### Contract data with quantity weighed price average per year
+### Contract data with quantity weighed price average per year for whole Material Base
 
 ## comments
 the time series of contract data is quite often a challenge in data warehouses. The related quantities are located outside the data table and have to be attached. In many cases the calculation of a base price (year average with quantity weighting).
