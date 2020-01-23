@@ -5,10 +5,10 @@ by connecting two or more data tables features (i.e. quantities in good receipts
 
 ## 01 data input
 see the CSV files in the folder 01_input. For illustration 2 dummy files in CSV format were included.
-### Contract data
+#### Contract data
 a row represents one contract for supplier/material/plant with a unique validity (valid from - valid to) and the corresponding price.
 one material has a certain index (dummy refers to "100" as the base), so the Material Base is the Material Number without index.
-### GR data
+#### GR data
 The good receipts show one receipt per row, which refers to supplier/material/plant and a date of receipt. It contains the corresponding quantity of the material.
 
 ## 02 processing
@@ -17,9 +17,9 @@ the Contract data is extended with the quantity of materials, which arise in the
 The difference in price (active row to previous) is calculated.
 
 ## 03 results
-### Contract data as processed.
-### Contract data with quantity weighed price average per year
-### Contract data with quantity weighed price average per year for Material Base
+#### Contract data as processed.
+#### Contract data with quantity weighed price average per year
+#### Contract data with quantity weighed price average per year for Material Base
 
 ## 50 importing the project
 the full project is part of the KNAR-file and can be imported as it is in the KNIME analytics platform. 
