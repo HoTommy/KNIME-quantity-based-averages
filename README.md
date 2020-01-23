@@ -12,7 +12,7 @@ one material has a certain index (dummy refers to "100" as the base), so the Mat
 The good receipts show one receipt per row, which refers to supplier/material/plant and a date of receipt. It contains the corresponding quantity of the material.
 
 ## 02 processing
-the Contract data is splitted in several entries if the validation timeframe extends the turn of the year. Thus one row represents a validation of one year at a max, the year of "valid from" equals the year of "valid to".
+the Contract data is splitted in several entries if the validation time period extends the turn of the year. Thus one row represents a validation of one year at a max, the year of "valid from" equals the year of "valid to".
 the Contract data is extended with the quantity of materials, which arise in the validation timeframe.
 The difference in price (active row to previous) is calculated.
 
